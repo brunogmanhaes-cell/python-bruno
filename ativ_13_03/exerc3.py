@@ -7,8 +7,7 @@ num2 = float(input("Digite o segundo número: "))
 num3 = float(input("Digite o terceiro número: "))
 num4 = float(input("Digite o quarto número: "))
 
-somaM = num1 + num2 + num3 + num4
-media = somaM/4
+media = (num1 + num2 + num3 + num4) / 4
 
 print(f"A média total é {media}")
 print(f"A média aproximada é {media:.2f}")
